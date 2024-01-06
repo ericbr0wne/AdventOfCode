@@ -1,37 +1,10 @@
-﻿using System;
+﻿using AdventOfCodeDay1;
+using System;
 using System.ComponentModel.DataAnnotations;
 using System.Numerics;
 using System.Runtime.CompilerServices;
 using System.Text.RegularExpressions;
 using static System.Runtime.InteropServices.JavaScript.JSType;
-
-static int firstDigit(int n)
-{
-    while (n >= 10)
-        n /= 10;
-
-    return n;
-}
-static int lastDigit(int n)
-{
-    return (n % 10);
-}
-
-static int concat(int a, int b)
-{
-    // Convert both the integers to string 
-    string s1 = a.ToString();
-    string s2 = b.ToString();
-
-    // Concatenate both strings 
-    string s = s1 + s2;
-
-    // Convert the concatenated string 
-    // to integer 
-    int c = int.Parse(s);
-
-    return c;
-}
 
 string[] inputlist = File.ReadAllLines("../../../input.txt");
 
@@ -52,9 +25,9 @@ foreach (string line in inputlist)
 
 foreach (int line in ints)
 {
-    Console.WriteLine(concat(firstDigit(line), lastDigit(line)));
+    Console.WriteLine(Concat.concat(FirstDigit.firstDigit(line), LastDigit.lastDigit(line)));
 
-    int sumLine = concat(firstDigit(line), lastDigit(line));
+    int sumLine = Concat.concat(FirstDigit.firstDigit(line), LastDigit.lastDigit(line));
 
     total = total += sumLine;
 }

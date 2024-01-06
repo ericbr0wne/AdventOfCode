@@ -12,3 +12,4 @@ C:\Users\Samsung\source\repos\AdventOfCodeDay1\obj\Debug\net8.0\refint\AdventOfC
 C:\Users\Samsung\source\repos\AdventOfCodeDay1\obj\Debug\net8.0\AdventOfCodeDay1.pdb
 C:\Users\Samsung\source\repos\AdventOfCodeDay1\obj\Debug\net8.0\AdventOfCodeDay1.genruntimeconfig.cache
 C:\Users\Samsung\source\repos\AdventOfCodeDay1\obj\Debug\net8.0\ref\AdventOfCodeDay1.dll
+C:\Users\Samsung\source\repos\AdventOfCodeDay1\obj\Debug\net8.0\AdventOfCodeDay1.sourcelink.json
