@@ -1,0 +1,14 @@
+C:\Users\Samsung\source\repos\AdventOfCodeDay1\bin\Debug\net8.0\AdventOfCodeDay1.exe
+C:\Users\Samsung\source\repos\AdventOfCodeDay1\bin\Debug\net8.0\AdventOfCodeDay1.deps.json
+C:\Users\Samsung\source\repos\AdventOfCodeDay1\bin\Debug\net8.0\AdventOfCodeDay1.runtimeconfig.json
+C:\Users\Samsung\source\repos\AdventOfCodeDay1\bin\Debug\net8.0\AdventOfCodeDay1.dll
+C:\Users\Samsung\source\repos\AdventOfCodeDay1\bin\Debug\net8.0\AdventOfCodeDay1.pdb
+C:\Users\Samsung\source\repos\AdventOfCodeDay1\obj\Debug\net8.0\AdventOfCodeDay1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Samsung\source\repos\AdventOfCodeDay1\obj\Debug\net8.0\AdventOfCodeDay1.AssemblyInfoInputs.cache
+C:\Users\Samsung\source\repos\AdventOfCodeDay1\obj\Debug\net8.0\AdventOfCodeDay1.AssemblyInfo.cs
+C:\Users\Samsung\source\repos\AdventOfCodeDay1\obj\Debug\net8.0\AdventOfCodeDay1.csproj.CoreCompileInputs.cache
+C:\Users\Samsung\source\repos\AdventOfCodeDay1\obj\Debug\net8.0\AdventOfCodeDay1.dll
+C:\Users\Samsung\source\repos\AdventOfCodeDay1\obj\Debug\net8.0\refint\AdventOfCodeDay1.dll
+C:\Users\Samsung\source\repos\AdventOfCodeDay1\obj\Debug\net8.0\AdventOfCodeDay1.pdb
+C:\Users\Samsung\source\repos\AdventOfCodeDay1\obj\Debug\net8.0\AdventOfCodeDay1.genruntimeconfig.cache
+C:\Users\Samsung\source\repos\AdventOfCodeDay1\obj\Debug\net8.0\ref\AdventOfCodeDay1.dll
