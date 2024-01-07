@@ -8,23 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Samsung\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Eric Browne\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Samsung\\source\\repos\\AdventOfCodeDay1\\AdventOfCodeDay1.csproj",
+      "projectUniqueName": "C:\\Users\\Eric Browne\\source\\repos\\AdventOfCode\\AdventOfCodeDay1.csproj",
       "projectName": "AdventOfCodeDay1",
-      "projectPath": "C:\\Users\\Samsung\\source\\repos\\AdventOfCodeDay1\\AdventOfCodeDay1.csproj",
-      "packagesPath": "C:\\Users\\Samsung\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Samsung\\source\\repos\\AdventOfCodeDay1\\obj\\",
+      "projectPath": "C:\\Users\\Eric Browne\\source\\repos\\AdventOfCode\\AdventOfCodeDay1.csproj",
+      "packagesPath": "C:\\Users\\Eric Browne\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Eric Browne\\source\\repos\\AdventOfCode\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Samsung\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Eric Browne\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -1,9 +1,5 @@
-﻿using System;
-using System.ComponentModel.DataAnnotations;
-using System.Numerics;
-using System.Runtime.CompilerServices;
+﻿using System.Linq;
 using System.Text.RegularExpressions;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 static int firstDigit(int n)
 {
@@ -19,37 +15,63 @@ static int lastDigit(int n)
 
 static int concat(int a, int b)
 {
-    // Convert both the integers to string 
+
     string s1 = a.ToString();
     string s2 = b.ToString();
 
-    // Concatenate both strings 
     string s = s1 + s2;
 
-    // Convert the concatenated string 
-    // to integer 
     int c = int.Parse(s);
 
     return c;
 }
 
-string[] inputlist = File.ReadAllLines("../../../input.txt");
+//string[] inputlist = File.ReadAllLines("../../../input.txt");
+string[] inputlist = File.ReadAllLines("../../../example.txt");
 
-int firstNr;
-int lastNr;
-int total = 0;
+List<string> stringlist = new List<string>();
 
 List<int> ints = new List<int>();
 
+
+// Check conditions and output result based on string content
+// Check if the length of the string is less than 6 and it's equal to "Hello"
+// OR check if the string starts with "Hello" and the character at index 5 is a space (' ')
+
 foreach (string line in inputlist)
 {
+    if (line.StartsWith("one") || line.StartsWith("two") || line.StartsWith("three") || line.StartsWith("four") || line.StartsWith("five") || 
+        line.StartsWith("six") || line.StartsWith("seven") || line.StartsWith("eig") || line.StartsWith("nine"))
+    {
+        stringlist.Add(line.Replace("zero", "0").Replace("one", "1").Replace("t", "2").Replace("three", "3").Replace("four", "4")
+    .Replace("five", "5").Replace("six", "6").Replace("seven", "7").Replace("eig", "8").Replace("nine", "9"));
+       ;
+    }
+    else if (true)
+    {
+        stringlist.Add(line.Replace("zero", "0").Replace("one", "1").Replace("two", "2").Replace("three", "3").Replace("four", "4")
+            .Replace("five", "5").Replace("six", "6").Replace("seven", "7").Replace("eight", "8").Replace("nine", "9"));
+        
+    }
+
+}
+foreach (string line in stringlist)
+{
+    Console.WriteLine(line);
+}
+Console.ReadKey();
+
+foreach (string line in stringlist)
+{
     string stripped = Regex.Replace(line, "[^0-9]", "");
+
     int.TryParse(stripped, out int numbers);
     {
         ints.Add(numbers);
     }
 }
 
+int total = 0;
 foreach (int line in ints)
 {
     Console.WriteLine(concat(firstDigit(line), lastDigit(line)));
@@ -59,138 +81,3 @@ foreach (int line in ints)
     total = total += sumLine;
 }
 Console.WriteLine(total);
-
-/*
-// string output = string.Concat(line.Where(Char.IsDigit));
-// Find the first digit 
-static int firstDigit(int n)
-{
-    // Remove last digit from number 
-    // till only one digit is left 
-    while (n >= 10)
-        n /= 10;
-
-    // return the first digit 
-    return n;
-}
-
-// Find the last digit 
-static int lastDigit(int n)
-{
-    // return the last digit 
-    return (n % 10);
-}
-    
-
-foreach (string input in inputlist)
-{
-    string stripped = Regex.Replace(input, "[^0-9]", "");
-
-    //string[] split = stripped.Split();
-
-    var lastItem = stripped[^1];
-    var firstItem = stripped[0];
-
-    foreach (int test in stripped)
-    {
-
-    total = firstItem + lastItem;
-    Console.WriteLine(total);
-
-    }
-}
-/*
-    if (int.TryParse(stripped, out int numbers))
-    {
-        Console.WriteLine(numbers);
-        if (numbers > 0) 
-        {
-            
-        }
-    }
-
-            List<int> firstNrList = new List<int>(numbers);
-            foreach (int lines in firstNrList)
-foreach (string line in inputlist)
-{
-    string stripped = Regex.Replace(line, "[^0-9]", "");
-
-    if (int.TryParse(stripped, out total))
-    {
-        Console.WriteLine(firstDigit(total));
-    }
-}
-
-*/
-
-
-
-//lastNr = test2.Last();
-//total = firstNr = +lastNr;
-//remove all non digits
-
-/*if (only one number in string)
-{
-    firstNr = +firstNr;
-}
-else
-{
-    firstNr = +lastNr;
-}
-
-total = 
-*/
-
-/*
-foreach (string line2 in test)
-{
-    int x = 0;
-        firstNr = line2.First();
-        Console.WriteLine(firstNr);
-
-    if (Int32.TryParse(line2, out x))
-    {
-        //Console.WriteLine(x);
-    }
-}
-*/
-
-
-//use first and last
-
-
-/*
-try
-{
-    int numVal = Int32.Parse(line);
-    Console.WriteLine(numVal);
-}
-catch (FormatException e)
-{
-    Console.WriteLine(e.Message);
-}
-}
-
-{
-
-   
-
-}
-
-Console.WriteLine(line);
-}
-
-*/
-
-
-
-//stripped = Regex.Replace(line, "[^0-9]", "");
-//Console.WriteLine(stripped);
-/*
-MatchCollection matches = Regex.Matches(line, @"\d+(\.\d+)?");
-List<string> numbers = new List<string>();
-foreach (Match m in matches)
-{
-    numbers.Add(m.Value);
-}
-*/

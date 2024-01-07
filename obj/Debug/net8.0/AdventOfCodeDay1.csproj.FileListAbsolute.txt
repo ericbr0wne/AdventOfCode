@@ -12,3 +12,18 @@ C:\Users\Samsung\source\repos\AdventOfCodeDay1\obj\Debug\net8.0\refint\AdventOfC
 C:\Users\Samsung\source\repos\AdventOfCodeDay1\obj\Debug\net8.0\AdventOfCodeDay1.pdb
 C:\Users\Samsung\source\repos\AdventOfCodeDay1\obj\Debug\net8.0\AdventOfCodeDay1.genruntimeconfig.cache
 C:\Users\Samsung\source\repos\AdventOfCodeDay1\obj\Debug\net8.0\ref\AdventOfCodeDay1.dll
+C:\Users\Eric Browne\source\repos\AdventOfCode\bin\Debug\net8.0\AdventOfCodeDay1.exe
+C:\Users\Eric Browne\source\repos\AdventOfCode\bin\Debug\net8.0\AdventOfCodeDay1.deps.json
+C:\Users\Eric Browne\source\repos\AdventOfCode\bin\Debug\net8.0\AdventOfCodeDay1.runtimeconfig.json
+C:\Users\Eric Browne\source\repos\AdventOfCode\bin\Debug\net8.0\AdventOfCodeDay1.dll
+C:\Users\Eric Browne\source\repos\AdventOfCode\bin\Debug\net8.0\AdventOfCodeDay1.pdb
+C:\Users\Eric Browne\source\repos\AdventOfCode\obj\Debug\net8.0\AdventOfCodeDay1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eric Browne\source\repos\AdventOfCode\obj\Debug\net8.0\AdventOfCodeDay1.AssemblyInfoInputs.cache
+C:\Users\Eric Browne\source\repos\AdventOfCode\obj\Debug\net8.0\AdventOfCodeDay1.AssemblyInfo.cs
+C:\Users\Eric Browne\source\repos\AdventOfCode\obj\Debug\net8.0\AdventOfCodeDay1.csproj.CoreCompileInputs.cache
+C:\Users\Eric Browne\source\repos\AdventOfCode\obj\Debug\net8.0\AdventOfCodeDay1.sourcelink.json
+C:\Users\Eric Browne\source\repos\AdventOfCode\obj\Debug\net8.0\AdventOfCodeDay1.dll
+C:\Users\Eric Browne\source\repos\AdventOfCode\obj\Debug\net8.0\refint\AdventOfCodeDay1.dll
+C:\Users\Eric Browne\source\repos\AdventOfCode\obj\Debug\net8.0\AdventOfCodeDay1.pdb
+C:\Users\Eric Browne\source\repos\AdventOfCode\obj\Debug\net8.0\AdventOfCodeDay1.genruntimeconfig.cache
+C:\Users\Eric Browne\source\repos\AdventOfCode\obj\Debug\net8.0\ref\AdventOfCodeDay1.dll
